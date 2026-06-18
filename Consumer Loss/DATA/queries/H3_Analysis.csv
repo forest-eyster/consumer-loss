@@ -1,0 +1,5 @@
+"customer_tier","total_customers","total_orders","avg_orders_per_customer","avg_order_value","total_revenue_per_tier"
+"Platinum","686","702","1.02","298.14","209297.74"
+"Bronze","4292","4324","1.01","298.97","1292742.36"
+"Gold","1736","1707","0.98","272.14","464538.23"
+"Silver","2853","2767","0.97","254.13","703189.03"
