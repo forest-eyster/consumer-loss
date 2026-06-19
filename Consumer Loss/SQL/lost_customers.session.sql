@@ -506,9 +506,7 @@ WHERE o.sales_channel IN ('Online', 'Mobile App')
 GROUP BY p.product_category
 ORDER BY revenue_post_march DESC;
 
--- Monthly digital orders post March
--- Multiply by $25.55 avg order value gap
--- That's your monthly revenue opportunity
+
 
 SELECT
     COUNT(*) / COUNT(DISTINCT DATE_TRUNC('month', order_date::date)) AS avg_monthly_orders,
